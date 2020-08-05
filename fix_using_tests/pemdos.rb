@@ -4,7 +4,7 @@ def snake_it_up(string)
   count = 1
   while count <= 10 do
     binding.pry
-    string[0] = ("ssssssssss")
+    string << "s"
     count += 10
   end
   string
