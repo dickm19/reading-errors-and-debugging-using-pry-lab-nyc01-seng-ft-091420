@@ -1,11 +1,10 @@
 # don't forget to add: require 'pry'
 require 'pry'
 def snake_it_up(string)
-  count = 1
-  while count <= 10 do
+  if string[0] == "s"
     binding.pry
-    string.unshift("s")
-    count += 1
+    10 * "s" + string
+  else
+    string
   end
-  string
 end
