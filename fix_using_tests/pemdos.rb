@@ -5,7 +5,7 @@ def snake_it_up(string)
   while count <= 10 do
     binding.pry
     string.unshift("s")
-    count += 10
+    count += 1
   end
   string
 end
