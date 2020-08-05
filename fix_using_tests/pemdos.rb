@@ -2,9 +2,9 @@
 require 'pry'
 def snake_it_up(string)
   count = 1
-  until count <= 10 do
+  while count <= 10 do
     binding.pry
     string[0] = ("s")
-  
   end
+  string
 end
